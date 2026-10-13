@@ -49,3 +49,10 @@ Visual reference: [Ethereum Foundation Infinite Garden](https://ethereum.foundat
 Confirm partnership wording, mentor names and roles, official brand usage, support terms, research briefs/RFPs, and application channels. Current copy describes GCC as the program initiator and coordinator and discussions with relevant EF teams as ongoing. No funding amount, mentor appointment, or university partnership is promised by this demo.
 
 Internal documents, meeting recordings, transcripts, and source notes are excluded from this repository.
+
+## Updated brand assets
+
+- ETH Hub logo: official SVG supplied by the project owner.
+- OpenBuild logo: black SVG from https://logo.openbuild.xyz/ (its linked public Google Drive brand folder).
+- GitHub source-link icon: https://github.com/primer/octicons/blob/main/icons/mark-github-24.svg, from the official Primer Octicons collection.
+- Browser favicon: circle mark supplied by the project owner, cropped and scaled without changing the artwork.

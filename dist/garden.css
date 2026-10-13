@@ -7,3 +7,59 @@ header{background:#f1edf8eb;backdrop-filter:blur(15px);border-bottom:1px solid #
 
 /* Unmodified official GCC wordmark, obtained from gccofficial.org. */
 .gcc-logo{display:block;width:150px;height:auto;object-fit:contain;flex-shrink:0}.brand{gap:16px}.partner-gcc{display:block;background:#f7f8ed;padding:10px 15px;border-radius:3px}.partner-gcc .gcc-logo{width:100px}.footer-top .gcc-logo{width:150px}@media(max-width:760px){.brand{gap:11px}.brand .gcc-logo{width:120px}.brand .divider{margin:0}.brand small{font-size:7px;letter-spacing:1px}.footer-top .gcc-logo{width:140px}}
+
+/* Preserve section spacing alongside the shared horizontal container padding. */
+section.wrap { padding-block: 104px; }
+.hero { padding-bottom: 56px; }
+.hero-strip { padding: 28px 32px; }
+#research { padding-top: 112px; }
+.section-head { margin-top: 36px; margin-bottom: 48px; }
+.track { padding-block: 40px; }
+.purpose { padding-block: 80px; }
+.network { padding-block: 88px; }
+.network .partners {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 64px;
+  padding-top: 32px;
+}
+.partners > small { grid-column: 1 / -1; margin: 0 0 8px; line-height: 1.8; }
+.partner-brand {
+  min-width: 0;
+  height: 116px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 32px;
+  background: #f7f8ed;
+  border-radius: 5px;
+}
+.partner-brand img { display: block; width: auto; max-width: 100%; max-height: 64px; object-fit: contain; }
+.partner-gcc .gcc-logo { width: 150px; }
+.partner-ethhub img { width: 148px; height: auto; }
+.partner-openbuild img { width: 170px; height: auto; }
+.network .relation { margin-top: 28px !important; line-height: 1.9; }
+.footer-top { gap: 32px; }
+.footer-links { gap: 28px; align-items: center; flex-wrap: wrap; line-height: 1.8; }
+.github-link { display: inline-flex; align-items: center; gap: 9px; }
+footer.wrap { padding-block: 48px 30px; }
+@media (max-width: 1050px) {
+  .partner-brand { padding-inline: 24px; }
+}
+@media (max-width: 760px) {
+  section.wrap { padding-block: 72px; }
+  #research { padding-top: 80px; }
+  .hero { padding-bottom: 40px; }
+  .hero-strip { transform: none; margin: 0; padding: 24px; gap: 18px; }
+  .section-head { margin-top: 28px; margin-bottom: 36px; }
+  .track { padding-block: 30px; }
+  .purpose { padding-block: 64px; }
+  .network { padding-block: 72px; }
+  .network .partners { grid-template-columns: 1fr; gap: 16px; margin-top: 40px; padding-top: 28px; }
+  .partner-brand { height: 112px; padding: 24px; }
+  .partners > small { margin-bottom: 4px; }
+  .network .relation { margin-top: 24px !important; }
+  .footer-links { margin-top: 28px; gap: 20px; }
+  footer.wrap { padding-block: 40px 28px; }
+}
